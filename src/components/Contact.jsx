@@ -19,7 +19,7 @@ export default function Contact() {
                     </input>
                     <input
                     type="text"
-                    name="name"
+                    name="email"
                     placeholder="Enter your email"
                     className="p-2 bg-transparent border-2 rounded-md text-white focus-outline-none my-4">
                     </input>
