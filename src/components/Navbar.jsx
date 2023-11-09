@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <div className="flex justify-between items-centre w-full h-20 px-4 py-6 text-white bg-black fixed">
         <div>
-            <h1 className="text-5xl capitalize font-signature ml-2">Tirtha Biswas</h1>
+            <h1 className="text-5xl capitalize font-signature ml-2">Tirtha</h1>
         </div>
         <ul className="hidden md:flex">
              {links.map(({id,link}) =>(

@@ -4,7 +4,7 @@
  import {Link} from 'react-scroll'
  export default function Home() {
    return (
-     <div name="Home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white">
+     <div name="home" className="h-screen w-full bg-gradient-to-b from-black to-gray-800 text-white">
         <div className="max-w-screen-lg mx-auto flex items-center justify-center h-full px-4">
             <div className="flex flex-col justify-center h-full">
                 <h2 className="text-4xl sm:text-7xl font-bold">
