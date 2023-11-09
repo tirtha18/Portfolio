@@ -11,7 +11,7 @@ const SocialLinksSlider = () => {
     { id: 2, url: 'https://www.instagram.com/_tirtha_18/',src: instagram},
     { id: 3, url: 'https://www.facebook.com/profile.php?id=100079907761236',src: facebook},
     { id: 4, url: 'https://twitter.com/TirthaBiswas18',src: twitter},
-    { id: 5, url: 'https://drive.google.com/drive/folders/1OyYI5Ppvf-topt82CluP5Ycl-Mx5Km_Z?usp=sharing',src: resume}
+    { id: 5, url: 'https://documentcloud.adobe.com/gsuiteintegration/index.html?state=%7B%22ids%22%3A%5B%2214Mlsk00lmHhJZ0aX8CB7SMbynEAQC_76%22%5D%2C%22action%22%3A%22open%22%2C%22userId%22%3A%22104446117698915010531%22%2C%22resourceKeys%22%3A%7B%7D%7D',src: resume}
   ];
 
   return (
