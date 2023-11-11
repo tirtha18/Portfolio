@@ -5,6 +5,8 @@ import react from '../images/react.png';
 import gh from '../images/gh.png';
 import tailwind from '../images/tailwind.png';
 import js from '../images/js.png';
+import bootstrap from '../images/bootstrap.png';
+
 
 export default function Experience() {
     const experiences=[
@@ -27,22 +29,28 @@ export default function Experience() {
             style : 'shadow-yellow-500'
         },
         {
-            id : 1,
+            id : 4,
             src : react,
             title : 'REACT',
             style : 'shadow-blue-500'
         },
         {
-            id : 1,
+            id : 5,
             src : tailwind,
             title : 'Tailwind',
             style : 'shadow-cyan-500'
         },
         {
-            id : 1,
+            id : 6,
             src : gh,
             title : 'GitHub',
             style : 'shadow-gray-500'
+        },
+        {
+            id : 7,
+            src : bootstrap,
+            title : 'Bootstrap',
+            style : 'shadow-purple-500'
         }
 
     ]
