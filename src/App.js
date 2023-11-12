@@ -5,39 +5,36 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Portfolio1 from "./components/Portfolio";
 import SocialLinksSlider from "./components/SocialLinksSlider";
-import React, { useState, useEffect } from 'react';
 function App() {
-  console.log(window.innerHeight);
-  const [isMobile, setIsMobile] = useState(window.innerHeight <= 726);
-  useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerHeight <= 726);
-    };
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []); 
-  
+  var userAgent = navigator.userAgent;
+  const isMobile=userAgent.match(/iPhone|iPad|Android|Windows Phone/i);
   return (
-    <div className="flex flex-col bg-gray-800">
+    <div className="flex flex-col">
       <Navbar/>
+      <div>
       <Home/>
       {
-        isMobile&&(<div className="h-64 w-screen bg-gray-800"></div>)
+        isMobile?(<div className="h-44 bg-gray-800"></div>):(<div className="h-28 bg-gray-800"></div>)
       }
+      </div>
+      <div>
       <About/>
       {
-        isMobile&&(<div className="h-44 w-screen bg-black"></div>)
+        isMobile?(<div className="h-44 bg-gray-800"></div>):(<div className="h-28 bg-black"></div>)
       }
+      </div>
+      <div>
       <Portfolio1/>
       {
-        isMobile&&(<div className="h-44 w-screen bg-gray-800"></div>)
+        isMobile?(<div className="h-44 bg-gray-800"></div>):(<div className="h-28 bg-gray-800"></div>)
       }
+      </div>
+      <div>
       <Experience/>
       {
-        isMobile&&(<div className="h-44 w-screen bg-black"></div>)
+        isMobile?(<div className="h-44 bg-gray-800"></div>):(<div className="h-28 bg-black"></div>)
       }
+      </div>
       <Contact/>
       <SocialLinksSlider/>
     </div>

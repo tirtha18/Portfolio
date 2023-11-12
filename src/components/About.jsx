@@ -12,7 +12,9 @@ export default function About() {
             </p>
             <br />
             <p className="text-white">
-            In my quest to become a full-stack developer, I've already had the chance to work on a variety of projects, from e-commerce platforms to social networking apps and data-driven dashboards. I've explored modern web frameworks and libraries such as React, Angular, and Vue.js for the front end, and Express.js, Django, and Flask for the back end. I'm familiar with databases, both SQL (MySQL, PostgreSQL) and NoSQL (MongoDB), and I've begun to understand how to design effective data storage and retrieval solutions. My journey also includes dabbling with cloud platforms like AWS and Azure for scalable, secure deployment. Apart from technical skills, I've worked on my ability to communicate complex concepts to non-technical stakeholders, ensuring that project goals are achieved with transparency and efficiency. As an aspiring full-stack developer, I'm excited to continue pushing the boundaries of what's possible, honing my skills, and delivering outstanding digital experiences for clients and users.
+            I am a pre-final year Electrical Engineering student at Jadavpur University, specializing in Power Engineering. My journey in full-stack development started with HTML, CSS, and JavaScript, extending to React, Angular, Vue.js, Python, Node.js, and Java. I've worked on diverse projects, from e-commerce to social apps, using databases like MongoDB and PostgreSQL. Proficient in AWS and Azure, I emphasize clear communication for efficient collaboration and aim to exceed client expectations with cutting-edge solutions.
+
+Passionate about pushing boundaries, I seek the cutting edge of technology to deliver exceptional digital experiences. With a focus on continuous skill enhancement, I thrive on contributing to diverse teams and translating ideas into tangible web solutions. My goal is to consistently exceed client and user expectations, ensuring outstanding outcomes in the ever-evolving field of full-stack development.
             </p>
         </div>
     </div>
