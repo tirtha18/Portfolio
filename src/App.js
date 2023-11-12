@@ -25,7 +25,7 @@ function App() {
       <div>
       <About/>
       {
-        isMobile?(<div className="h-80 bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
+        isMobile?(<div className="h-full bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <div>
