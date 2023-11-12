@@ -20,11 +20,7 @@ export default function Navbar() {
         {
             id: 4,
             link: 'experience'
-        },
-        {
-            id: 5,
-            link: 'contact'
-        },
+        }
     ];
   return (
     <div className="flex justify-between items-centre w-full h-20 px-4 py-6 text-white bg-black fixed">
@@ -37,6 +33,14 @@ export default function Navbar() {
                     <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
              ))}
+             <a href="https://docs.google.com/document/d/1Q-WIcmT8qptMBJF4nEK-izARISEMLjwY8lL-Nx_gcao/edit">
+             <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+                resume
+             </li>
+             </a>
+             <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
+             <Link to='contact' smooth duration={500}>contact</Link>
+             </li>
         </ul>
         <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
             {!nav ? <FaBars size={30}/> : <FaTimes size={30}/>}
@@ -44,6 +48,14 @@ export default function Navbar() {
         {nav && (
         <ul className="flex flex-col justify-centre items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to bg-gray-600">
                 {links.map(({id , link}) => (<li key={id} className="px-4 cursor-pointer capitalize text-4xl py-6"><Link onClick={()=>setNav(!nav)}to={link} smooth duration={500}>{link}</Link></li>))}
+                <a href="https://docs.google.com/document/d/1Q-WIcmT8qptMBJF4nEK-izARISEMLjwY8lL-Nx_gcao/edit">
+                    <li className="px-4 cursor-pointer capitalize text-4xl py-6">
+                        resume
+                    </li>
+                </a>
+                <li className="px-4 cursor-pointer capitalize text-4xl py-6">
+                    <Link to='contact' smooth duration={500}>contact</Link>
+                </li>
         </ul>
         )}
     </div>
