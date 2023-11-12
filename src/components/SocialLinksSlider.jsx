@@ -10,8 +10,7 @@ const SocialLinksSlider = () => {
     { id: 1, url: 'https://www.linkedin.com/in/tirtha-biswas-594581230/',src: linkedin},
     { id: 2, url: 'https://www.instagram.com/_tirtha_18/',src: instagram},
     { id: 3, url: 'https://www.facebook.com/profile.php?id=100079907761236',src: facebook},
-    { id: 4, url: 'https://twitter.com/TirthaBiswas18',src: twitter},
-    { id: 5, url: 'https://github.com/tirtha18',src: github}
+    { id: 4, url: 'https://twitter.com/TirthaBiswas18',src: twitter}
   ];
 
   return (
@@ -22,11 +21,19 @@ const SocialLinksSlider = () => {
           href={url}
           target="_blank"
           rel="noopener noreferrer"
-          className= "flex-shrink-0 w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center hover:scale-125 duration-300 "
+          className= "flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center hover:scale-125 duration-300 "
         >
           <img src={src} alt= "nopic"/>
         </a>
       ))}
+      <a
+      href='https://github.com/tirtha18'
+      target="_blank"
+      rel="noopener noreferrer"
+      className= "flex-shrink-0 w-8 h-8 bg-white rounded-full flex items-center justify-center hover:scale-125 duration-300 "
+      >
+        <img src={github} alt="nopic"></img>
+      </a>
     </div>
   );
 };

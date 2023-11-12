@@ -20,7 +20,7 @@ function App() {
       <div>
       <About/>
       {
-        isMobile?(<div className="h-44 bg-gray-800"></div>):(<div className="h-28 bg-black"></div>)
+        isMobile?(<div className="h-44 bg-black"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <div>
@@ -32,7 +32,7 @@ function App() {
       <div>
       <Experience/>
       {
-        isMobile?(<div className="h-44 bg-gray-800"></div>):(<div className="h-28 bg-black"></div>)
+        isMobile?(<div className="h-44 bg-black"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <Contact/>

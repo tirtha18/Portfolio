@@ -54,7 +54,7 @@ export default function Navbar() {
                     </li>
                 </a>
                 <li className="px-4 cursor-pointer capitalize text-4xl py-6">
-                    <Link to='contact' smooth duration={500}>contact</Link>
+                    <Link onClick={()=>setNav(!nav)} to='contact' smooth duration={500}>contact</Link>
                 </li>
         </ul>
         )}
