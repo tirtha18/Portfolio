@@ -10,29 +10,34 @@ function App() {
   const isMobile=userAgent.match(/iPhone|iPad|Android|Windows Phone/i);
   return (
     <div className="flex flex-col">
+      <div>
       <Navbar/>
+      {
+        isMobile?(<div className="h-20 bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
+      }
+      </div>
       <div>
       <Home/>
       {
-        isMobile?(<div className="h-64 bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
+        isMobile?(<div className="h-screen bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
       }
       </div>
       <div>
       <About/>
       {
-        isMobile?(<div className="h-64 bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
+        isMobile?(<div className="h-screen bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <div>
       <Portfolio1/>
       {
-        isMobile?(<div className="h-64 bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
+        isMobile?(<div className="h-screen bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
       }
       </div>
       <div>
       <Experience/>
       {
-        isMobile?(<div className="h-64 bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
+        isMobile?(<div className="h-screen bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <Contact/>
