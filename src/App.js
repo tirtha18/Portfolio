@@ -25,19 +25,19 @@ function App() {
       <div>
       <About/>
       {
-        isMobile?(<div className="h-screen bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
+        isMobile?(<div className="h-80 bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <div>
       <Portfolio1/>
       {
-        isMobile?(<div className="h-screen bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
+        isMobile?(<div className="h-80 bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
       }
       </div>
       <div>
       <Experience/>
       {
-        isMobile?(<div className="h-screen bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
+        isMobile?(<div className="h-80 bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <Contact/>
