@@ -13,7 +13,7 @@ function App() {
       <div>
       <Navbar/>
       {
-        isMobile?(<div className="h-20 bg-gray-800 w-screen"></div>):(<div className="h-28 bg-gray-800"></div>)
+        isMobile?(<div className="h-20 bg-black w-screen"></div>):(<div className="h-28 bg-black"></div>)
       }
       </div>
       <div>
