@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
+import My_Resume from "../images/My_resume.pdf"
 export default function Navbar() {
     const [nav , setNav] = useState(false);
     const links=[
@@ -33,7 +34,7 @@ export default function Navbar() {
                     <Link to={link} smooth duration={500}>{link}</Link>
                 </li>
              ))}
-             <a href="https://docs.google.com/document/d/1Q-WIcmT8qptMBJF4nEK-izARISEMLjwY8lL-Nx_gcao/edit">
+             <a href={My_Resume} target="_blabk">
              <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200">
                 resume
              </li>
