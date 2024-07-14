@@ -1,43 +1,37 @@
 import React from 'react'
-import reactParallax from "../images/reactParrallax.png";
-import reactSmooth from "../images/reactSmooth.png";
-import resNav from "../images/resNav.png";
-import resSide from "../images/resSide.png";
-import sortingV from "../images/sortingV.png";
 import weatherApp from "../images/weatherApp.png";
+import CodeXl from "../images/CodeXL.png";
+import Tictactoe from "../images/Tictactoe.png";
+import Betterme from "../images/betterme.png";
+import Powerapp from "../images/powerapp.png";
 export default function Portfolio() {
   const portfolios =[
     {
       id: 1,
-      src: weatherApp,
-      rep: "https://github.com/tirtha18/Sorting-Visualizer.git"
+      src: CodeXl,
+      rep: "https://github.com/tirtha18/Code.-XL"
 
     },
     {
       id: 2,
-      src: reactSmooth,
-      rep: "https://github.com/tirtha18/Sorting-Visualizer.git"
+      src: Betterme,
+      rep: "https://github.com/tirtha18/BetterMe"
     },
     {
       id: 3,
-      src: reactParallax,
-      rep: "https://github.com/tirtha18/Sorting-Visualizer.git"
+      src: Tictactoe,
+      rep: "https://github.com/tirtha18/tictactoe"
     },
     {
       id: 4,
-      src: resNav,
-      rep: "https://github.com/tirtha18/Sorting-Visualizer.git"
+      src: weatherApp,
+      rep: "https://github.com/tirtha18/weather_tracker"
     },
     {
       id: 5,
-      src: sortingV,
-      rep: "https://github.com/tirtha18/Sorting-Visualizer.git"
+      src: Powerapp,
+      rep: "https://github.com/tirtha18/powerapp"
     },
-    {
-      id: 6,
-      src: resSide,
-      rep: "https://github.com/tirtha18/Sorting-Visualizer.git"
-    }
   ]
   return (
     <div  name="portfolio" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
