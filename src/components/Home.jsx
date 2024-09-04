@@ -14,13 +14,24 @@ export default function Home() {
             I'm an aspiring Full Stack Developer
           </h2>
           <p className="py-4 text-gray-500 max-w-md">
-            I am an aspiring software developer skilled in C++, Java, Python,
-            and JavaScript. I have experience with React.js, Tailwind CSS,
-            Bootstrap, Express.js, Node.js, and Flask, and I'm proficient in
-            MySQL and MongoDB. My projects include a placement preparation app,
-            a healthcare app, a weather tracking website, and an interactive
-            game. Check out my projects and skills in this portfolio!
+            I am an aspiring software developer skilled in{" "}
+            <span className="font-bold text-gray-400">C++</span>,{" "}
+            <span className="font-bold text-gray-400">Java</span>,{" "}
+            <span className="font-bold text-gray-400">Python</span>, and{" "}
+            <span className="font-bold  text-gray-400">JavaScript</span>. I have experience
+            with <span className="font-bold  text-gray-400">React.js</span>,{" "}
+            <span className="font-bold text-gray-400">Tailwind CSS</span>,
+            <span className="font-bold text-gray-400">Bootstrap</span>,{" "}
+            <span className="font-bold text-gray-400">Express.js</span>,{" "}
+            <span className="font-bold text-gray-400">Node.js</span>, and{" "}
+            <span className="font-bold text-gray-400">Flask</span>, and I'm proficient in
+            <span className="font-bold text-gray-400">MySQL</span> and{" "}
+            <span className="font-bold text-gray-400">MongoDB</span>. My projects include a
+            placement preparation app, a healthcare app, a weather tracking
+            website, and an interactive game. Check out my projects and skills
+            in this portfolio!
           </p>
+
           <div>
             <Link
               to="portfolio"
