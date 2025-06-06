@@ -2,7 +2,7 @@ import React from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { useState } from 'react';
 import {Link} from 'react-scroll';
-import My_Resume from "../images/My_Resume.pdf"
+import My_Resume from "../images/My_resume.pdf"
 export default function Navbar() {
     const [nav , setNav] = useState(false);
     const links=[
